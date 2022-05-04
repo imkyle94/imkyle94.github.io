@@ -49,7 +49,7 @@ Github Link : <a href="https://github.com/pjh94/DessertAPI">Go GITHUB</a>
 
 ### 전역 모듈 설치
 
-### yarn & truffle installation
+### yarn installation
 
 > ###### npm i -g yarn
 
