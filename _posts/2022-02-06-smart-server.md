@@ -18,7 +18,7 @@ Github Link : <a href="https://github.com/pjh94/SmartServer-ws-">Go GITHUB</a>
 
 ## 프로젝트 간단 설명
 
--   프로젝트 명 : 이더리움 기반의 NFT 음악 스트리밍 플랫폼
+-   프로젝트 명 : 블록체인 기반 거래사이트
 -   프로젝트 팀명 : 개인 작업
 -   개발 기간 : 2022-01-20 ~ 2022-02-06
 
