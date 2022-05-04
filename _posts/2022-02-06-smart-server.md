@@ -1,7 +1,7 @@
 ---
-title: 기업협약 프로젝트
+title: Smart Server
 layout: post
-post-image: https://kylesportfolio.s3.amazonaws.com/166181415-62e68140-a732-45d3-b7c2-ae2cf411edac.png
+post-image: https://kylesportfolio.s3.amazonaws.com/smartserver.jpg
 description: 블록체인 기반 거래사이트
 
 tags:
