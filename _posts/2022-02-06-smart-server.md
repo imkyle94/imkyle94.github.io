@@ -2,15 +2,15 @@
 title: 기업협약 프로젝트
 layout: post
 post-image: https://kylesportfolio.s3.amazonaws.com/166181415-62e68140-a732-45d3-b7c2-ae2cf411edac.png
-description: 이더리움 기반의 NFT 음악 스트리밍 플랫폼 서비스
+description: 블록체인 기반 거래사이트
 
 tags:
     - Kyle
     - BlockChain
-    - NFT
+    - Smart Server
 ---
 
-Github Link : <a href="https://github.com/pjh94/Const">Go GITHUB</a>
+Github Link : <a href="https://github.com/pjh94/SmartServer-ws-">Go GITHUB</a>
 
 ---
 
@@ -19,24 +19,14 @@ Github Link : <a href="https://github.com/pjh94/Const">Go GITHUB</a>
 ## 프로젝트 간단 설명
 
 -   프로젝트 명 : 이더리움 기반의 NFT 음악 스트리밍 플랫폼
--   프로젝트 팀명 : 상태변수(CONST)
--   개발 기간 : 2022-03-07 ~ 2022-05-02
--   협약 기업 : 뮤짓 & 밀림엑스
--   발표 영상 :
+-   프로젝트 팀명 : 개인 작업
+-   개발 기간 : 2022-01-20 ~ 2022-02-06
 
 ## 구현 기술
 
--   Solidity Smart Contract 작성 및 구현
-    ERC721 based Token 생성
-    NFT(음원) 민팅, 음원 판매, 경매, 플랫폼 서비스 이용권
--   Truffle, Ganache 사용한 Smart Contract 테스트 환경 구성
--   web3.js 개발
--   IPFS 프로토콜 사용, 파일 관리 구현
--   중앙화 계정, 탈중앙화 계정 연동
--   AWS 플랫폼 EC2, RDS, S3 서비스 사용
-    IAM 사용
--   Next.js 서버 사이드 렌더링 구현
--   React-Query 서버 데이터 패칭 및 클라이언트 상태 관리 구현
+-   Javascript TCP/IP 통신 .net 활용한 P2P 소켓 통신 구현 및 WebSocket 프로토콜로 확장
+-   Javascript event 모듈 및 콜백 처리를 통한 이벤트 발생자 구현
+-   블록 및 트랜잭션 데이터 구조화 및 채굴 진행
 
 ## 사용 라이브러리
 
