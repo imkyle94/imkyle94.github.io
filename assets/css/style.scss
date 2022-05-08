@@ -380,10 +380,16 @@ a.navbar-item.is-active {
 }
 
 #skills {
-  .image {
-    width: 10px;
+  .list {
+    display: flex;
+  }
+  #list-image {
+    width: 100px;
   }
 
+  .image {
+    width: 100px;
+  }
   .image-wrapper {
     position: relative;
     width: 200px;
