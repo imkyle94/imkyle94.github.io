@@ -12,6 +12,10 @@
   opacity: 0.95;
 }
 
+.content * {
+  vertical-align: middle;
+}
+
 .is-active {
   font-weight: 600;
 }
