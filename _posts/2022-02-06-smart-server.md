@@ -11,11 +11,11 @@ tags:
 ---
 
 Github Link : <a href="https://github.com/pjh94/SmartServer-ws-">Go GITHUB</a>
-Typescript ver. Link : <a href="https://github.com/pjh94/SmartServer-ws-">Go GITHUB</a>
+Typescript ver. Link(진행 중) : <a href="https://github.com/pjh94/SmartServer-ws-">Go GITHUB</a>
 
 ---
 
-# NFT 음악 등록 및 거래 플랫폼
+# 블록체인 기반 거래사이트
 
 ## 프로젝트 간단 설명
 
@@ -25,9 +25,9 @@ Typescript ver. Link : <a href="https://github.com/pjh94/SmartServer-ws-">Go GIT
 
 ## 구현 기술
 
+- 블록 및 트랜잭션 데이터 구조화 및 채굴 진행
 - Javascript TCP/IP 통신 .net 활용한 P2P 소켓 통신 구현 및 WebSocket 프로토콜로 확장
 - Javascript event 모듈 및 콜백 처리를 통한 이벤트 발생자 구현
-- 블록 및 트랜잭션 데이터 구조화 및 채굴 진행
 
 ## 사용 기술 & 라이브러리
 
