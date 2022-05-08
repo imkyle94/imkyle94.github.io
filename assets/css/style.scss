@@ -385,11 +385,13 @@ a.navbar-item.is-active {
   }
   #list-image {
     text-align: center;
+    margin: 0 15px 0 0;
+  }
+  .image {
+    height: 300px;
+    width: auto;
   }
 
-  .image {
-    height: 150px;
-  }
   .image-wrapper {
     position: relative;
     width: 200px;
