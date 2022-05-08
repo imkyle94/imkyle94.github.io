@@ -382,9 +382,11 @@ a.navbar-item.is-active {
 #skills {
   .list {
     display: flex;
+    text-align: center;
   }
   #list-image {
-    width: 100px;
+    width: 150px;
+    height: 150;
   }
 
   .image {
