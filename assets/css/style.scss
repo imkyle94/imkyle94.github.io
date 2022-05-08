@@ -381,6 +381,7 @@ a.navbar-item.is-active {
 
 #skills {
   .list {
+    display: flex;
     left: 50%;
     top: 50%;
   }
