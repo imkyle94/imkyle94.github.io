@@ -43,53 +43,53 @@ disqus-shortname: thedevslot
 # Name of the Author
 author-name: Kyle
 # URL for the Image of the Author
-author-image: https://kylesportfolio.s3.amazonaws.com/UVBJZL3RXAB36BDSHVM3MW2WNY.png
+author-image: https://kylesportfolio.s3.amazonaws.com/KakaoTalk_20220508_093837606.jpg
 # 60 Words About the Author
-author-about: 안녕하세요! 블록체인 개발자를 희망하는 박정호입니다!
+author-about: 안녕하세요! 블록체인 개발자를 꿈꾸는 박정호입니다!
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/pjh94
 
 # SASS
 sass:
-    sass_dir: _sass
-    style: compressed
+  sass_dir: _sass
+  style: compressed
 
 # Build settings
 plugins:
-    - jekyll-admin
-    - jekyll-feed
+  - jekyll-admin
+  - jekyll-feed
 
 # Permalink
 permalink: "portfolio/:title"
 
 # Compress
 compress_html:
-    clippings: all
+  clippings: all
 
 # Defaults
 defaults:
-    - scope:
-          type: "posts"
-      values:
-          layout: post
-          post-image: ""
-          description: ""
-          tags:
-              - ""
-    - scope:
-          type: "pages"
-      values:
-          layout: page
+  - scope:
+      type: "posts"
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  - scope:
+      type: "pages"
+    values:
+      layout: page
 
 # Exclude
 exclude:
-    - .sass-cache/
-    - .jekyll-cache/
-    - gemfiles/
-    - Gemfile
-    - Gemfile.lock
-    - node_modules/
-    - vendor/bundle/
-    - vendor/cache/
-    - vendor/gems/
-    - vendor/ruby/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
