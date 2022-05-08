@@ -383,9 +383,12 @@ a.navbar-item.is-active {
   .list {
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   #list-image {
     padding-right: 10px;
+    margin-right: 10px;
   }
   .image {
     height: 150px;
