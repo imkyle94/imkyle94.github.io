@@ -19,7 +19,7 @@ Github Link(No Client Design) : <a href="https://github.com/pjh94/SmartServer-ws
 
 ## 프로젝트에 들어가기에 앞서
 
--   블록체인에 관한 사전 지식들이 많이 요구됩니다. 블로그를 확인하시면 도움이 되는 글을 많이 보실 수 있습니다.
+-   블록체인에 관한 사전 지식들이 많이 요구됩니다. 벨로그를 확인하시면 도움이 되는 글을 많이 보실 수 있습니다.
 -   [BlockChain](https://velog.io/@andy3638/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8%EC%97%90-%EB%8C%80%ED%95%9C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B8%80-%EB%9D%BC%EC%9A%B0%ED%8C%85)
 
 ## 프로젝트 간단 설명
