@@ -24,7 +24,7 @@ Github Link(No Client Design) : <a href="https://github.com/pjh94/SmartServer-ws
 
 ## 프로젝트 간단 설명
 
--   프로젝트 명 : 블록체인 기반 거래사이트
+-   프로젝트 명 : 블록체인 기반 메인넷 & 거래사이트
 -   프로젝트 팀명 : 개인 작업
 -   개발 기간 : 2022-01-20 ~ 2022-02-06
 
