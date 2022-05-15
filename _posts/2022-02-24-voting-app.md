@@ -1,0 +1,152 @@
+---
+title: Smart Contract - Voting App
+layout: post
+post-image: https://kylesportfolio.s3.amazonaws.com/voting.png
+description: 스마트 컨트랙트 - 투표 앱
+
+tags:
+  - Kyle
+  - BlockChain
+  - SmartContract
+  - Voting
+---
+
+Github Link : <a href="https://github.com/pjh94/SmartContract-VotingApp">Go GITHUB</a>
+Vite Build Tool로 코드 리팩토링 진행하는 도중 Client에 대해 꼭 정리하고 싶은 주제가 생겨 이번 프로젝트는 컨트랙트 코드만 제공합니다.
+이에 대한 자세한 글은 벨로그 글을 제공합니다.
+<a href="https://velog.io/@andy3638/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EB%8A%94-%EB%AC%B4%EC%A1%B0%EA%B1%B4-%ED%86%A0%EC%9D%B4%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%97%AC%EC%95%BC-%ED%95%9C%EB%8B%A4">Velog</a>
+
+---
+
+# 스마트 컨트랙트 - 투표 앱
+
+## 프로젝트 간단 설명
+
+- 프로젝트 명 : 스마트 컨트랙트 - 투표 앱
+- 프로젝트 팀명 : 개인작업
+- 개발 기간 : 2022-02-21 ~ 2022-02-24
+
+## 구현 기술
+
+- Solidity Smart Contract 작성 및 구현
+  ERC721 based Token 생성
+  NFT(음원) 민팅, 음원 판매, 경매, 플랫폼 서비스 이용권
+- Truffle, Ganache 사용한 Smart Contract 테스트 환경 구성
+- web3.js 개발
+- IPFS 프로토콜 사용, 파일 관리 구현
+- 중앙화 계정, 탈중앙화 계정 연동
+- AWS 플랫폼 EC2, RDS, S3 서비스 사용
+  IAM 사용
+- Next.js 서버 사이드 렌더링 구현
+- React-Query 서버 데이터 패칭 및 클라이언트 상태 관리 구현
+
+## 사용 라이브러리
+
+다음의 라이브러리들이 프로젝트에 사용되었습니다<br>
+
+- [NextJS](https://nextjs.org/){:target="\_blank"} 서버사이드렌더링(SSR)을 위해 사용했습니다.
+- [React-Query](https://react-query.tanstack.com/){:target="\_blank"} Server Data Fecthing 및 상태관리를 위해 사용했습니다.
+- [MUI](https://mui.com/){:target="\_blank"} View Grid 작업을 위해 사용했습니다.
+
+## Requirements
+
+- [NodeJS](https://nodejs.org/ko/){:target="\_blank"} 자바스크립트 언어로 작성되었습니다. 프로젝트 구동 시 자바스크립트 런타임 환경인 NodeJS를 이용합니다. **버전관리의 용이성을 위해 아래에 기술한 NVM 사용을 권장합니다.** v16으로 작성되었습니다.
+- [NVM](https://github.com/nvm-sh/nvm){:target="\_blank"} Node Version Manager Github입니다. 본인 환경에 맞게 설치하실 수 있습니다.
+- [node-gyp](https://github.com/nodejs/node-gyp){:target="\_blank"} Node.js native addon build tool입니다. 노드 버전에 따라 설치가 필요할 수 있습니다.
+- [Metamask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=ko){:target="\_blank"} 이더리움(Ethereum) 개인지갑을 편리하고 안전하게 관리할 수 있는 구글 확장프로그램입니다.
+- [Chrome](https://www.google.co.kr/chrome/?brand=YTUH&gclid=Cj0KCQjwpcOTBhCZARIsAEAYLuVysegwe_b6xHTfek9Q9_utUWYB4B28jNiiQDwDYr9cGL5wo9bkyHAaAoaJEALw_wcB&gclsrc=aw.ds){:target="\_blank"} 메타마스크 사용을 위해 크롬 설치가 필요합니다.
+- [Truffle](https://trufflesuite.com/){:target="\_blank"} 블록체인 테스트 환경을 트러플로 구성하였습니다.
+- [Ganache](https://trufflesuite.com/ganache/){:target="\_blank"} 트러플 GUI인 가나슈를 사용하였습니다.
+- [S3](https://aws.amazon.com/ko/s3/){:target="\_blank"} 이미지 저장에 AWS S3를 사용하였습니다.
+- [Velog](https://velog.io/@andy3638/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0){:target="\_blank"} 블록체인 테스트 환경구성의 자세한 설명은 벨로그를 참고해주세요.
+
+## After Installing the Requirements you can follow these guides:
+
+### 전역 모듈 설치
+
+### yarn & truffle installation
+
+> ###### npm i -g yarn
+>
+> ###### npm i -g truffle
+
+**※주의※ 노드의 버전에 따라 설치 방식이 다를 수 있습니다.**
+
+### 모듈 설치
+
+package.json에서 모듈 버전 확인이 가능합니다.<br>
+
+> ##### // with yarn
+>
+> ###### yarn
+>
+> ##### // with npm
+>
+> ###### npm i
+>
+> **go inside the directory**
+>
+> ###### cd client
+>
+> ###### yarn or npm i again
+
+### Changing into the Directory
+
+**We have to go inside the directory:**<br>
+프로젝트 구동을 위해 클라이언트 폴더로 들어가주세요.
+
+> ###### cd client
+
+### 프로젝트 실행
+
+> ###### yarn run start or npm run start
+
+---
+
+### 프로젝트 시연
+
+#### Signup
+
+![Signup](https://kylesportfolio.s3.amazonaws.com/Const/Signup.gif)
+
+#### Login
+
+![Login](https://user-images.githubusercontent.com/88130007/167329186-3ee2f105-b803-450a-8a17-da1b83acb577.gif)
+
+#### Minting
+
+![Minting](https://kylesportfolio.s3.amazonaws.com/Const/Minting.gif)
+
+#### Sell
+
+![Sell](https://kylesportfolio.s3.amazonaws.com/Const/%ED%8C%90%EB%A7%A4.gif)
+
+#### Auction
+
+![Auction](https://kylesportfolio.s3.amazonaws.com/Const/%EA%B2%BD%EB%A7%A4.gif)
+
+#### Ticket
+
+![Ticket](https://kylesportfolio.s3.amazonaws.com/Const/%EC%9D%B4%EC%9A%A9%EA%B6%8C.gif)
+
+---
+
+### 프로젝트 특이점
+
+#### Server Side
+
+의도적으로 데이터 로직을 서버 사이드에서 처리하도록 하였습니다.
+
+##### NextJS
+
+SSR 프레임워크를 통해 SEO에서 강점을 보이도록 했습니다.
+
+##### React-Query
+
+서버 데이터 패칭을 react-query 라이브러리를 사용함으로써 구현하였고, 이를 통해 캐싱 처리를 하였습니다.
+
+#### Smart Contract
+
+기존의 프로젝트와 다르게 백엔드 일부를 스마트 컨트랙트로 작성하여 이더리움 네트워크에서 사용할 수 있게 하였습니다.
+
+<!-- #### nivo -->
