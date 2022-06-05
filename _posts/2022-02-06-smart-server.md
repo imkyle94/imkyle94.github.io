@@ -10,8 +10,8 @@ tags:
   - Smart Server
 ---
 
-Github Link(No Client Design) : <a href="https://github.com/pjh94/SmartServer-ws-">Go GITHUB</a>
-　　 Typescript ver. Link(진행 중. 타입스크립트 버전으로 보는 걸 권장합니다.) : <a href="https://github.com/pjh94/SmartServer-WebSocket-TypeScript">Go GITHUB</a>
+Github Link(No Client Design) : <a href="https://github.com/imkyle94/SmartServer-ws-">Go GITHUB</a>
+　　 Typescript ver. Link(진행 중. 타입스크립트 버전으로 보는 걸 권장합니다.) : <a href="https://github.com/imkyle94/SmartServer-WebSocket-TypeScript">Go GITHUB</a>
 
 ---
 

@@ -11,7 +11,7 @@ tags:
   - Voting
 ---
 
-Github Link : <a href="https://github.com/pjh94/SmartContract-VotingApp">Go GITHUB</a><br/>
+Github Link : <a href="https://github.com/imkyle94/SmartContract-VotingApp">Go GITHUB</a><br/>
 Vite Build Tool로 코드 리팩토링 진행하는 도중 Client에 대해 꼭 정리하고 싶은 주제가 생겨 이번 프로젝트는 컨트랙트 코드만 제공합니다.
 <br/>
 이에 대한 자세한 글은 벨로그 글을 제공합니다.

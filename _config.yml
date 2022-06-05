@@ -2,7 +2,7 @@
 markdown: kramdown
 
 # URL of the Site
-url: "https://pjh94.github.io"
+url: "https://imkyle94.github.io"
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl:
 
@@ -27,7 +27,7 @@ facebook_username:
 twitter_username:
 instagram_username:
 linkedin_username:
-github_username: pjh94
+github_username: imkyle94
 youtube_channel_id:
 reddit_username: /
 behance_username: /
@@ -47,7 +47,7 @@ author-image: https://kylesportfolio.s3.amazonaws.com/KakaoTalk_20220508_0938376
 # 60 Words About the Author
 author-about: 안녕하세요! 블록체인 개발자를 꿈꾸는 박정호입니다!
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/pjh94
+author-url: https://github.com/imkyle94
 
 # SASS
 sass:
