@@ -1,5 +1,5 @@
 ---
-title: Smart Server-BlockChain Mainnet
+title: Smart Server-BlockChain Network
 layout: post
 post-image: https://kylesportfolio.s3.amazonaws.com/smartserver.jpg
 description: 블록체인 기반 메인넷 & 거래사이트
@@ -11,7 +11,6 @@ tags:
 ---
 
 Github Link(No Client Design) : <a href="https://github.com/imkyle94/SmartServer-ws-">Go GITHUB</a>
-　　 Typescript ver. Link(진행 중. 타입스크립트 버전으로 보는 걸 권장합니다.) : <a href="https://github.com/imkyle94/SmartServer-WebSocket-TypeScript">Go GITHUB</a>
 
 ---
 
@@ -24,7 +23,7 @@ Github Link(No Client Design) : <a href="https://github.com/imkyle94/SmartServer
 
 ## 프로젝트 간단 설명
 
-- 프로젝트 명 : 블록체인 기반 메인넷 & 거래사이트
+- 프로젝트 명 : 비트코인 기반 블록체인 네트워크 & 거래사이트
 - 프로젝트 팀명 : 개인 작업
 - 개발 기간 : 2022-01-20 ~ 2022-02-06
 
